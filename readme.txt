@@ -19,7 +19,7 @@ e.g.
 1. Upload the plugin files to the `/wp-content/plugins/dynamic-blog-sidebar-block` directory, or install the plugin through the WordPress plugins screen directly.
 2. Activate the plugin through the 'Plugins' screen in WordPress
 
-== Video Demo ==
+== Video & Screenshots ==
 
 [https://go.screenpal.com/watch/cZh1hbVMJda]
 
