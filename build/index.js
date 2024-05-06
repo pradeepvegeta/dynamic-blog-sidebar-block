@@ -87,7 +87,7 @@ function h2QuerySelect(headings) {
 
 // Error Handling
 function Error() {
-  return (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)("Please make sure the content was on the post and h2 tags", "dynamic-blog-sidebar-block"));
+  return (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)("Please make sure the current post type is post and post content must have h2 tags", "dynamic-blog-sidebar-block"));
 }
 
 /**
@@ -117,8 +117,8 @@ function Edit({
     getCurrentPostId: select(_wordpress_editor__WEBPACK_IMPORTED_MODULE_6__.store).getCurrentPostId()
   }));
   if (getCurrentPostType !== "post") {
-    // Bail if current post type is not Posy
-    return;
+    // Bailout if current post type is not Post
+    return (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(Error, null);
   }
   (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_5__.useEffect)(() => {
     const parser = new DOMParser(); // Parse HTML string into DOM
@@ -134,7 +134,7 @@ function Edit({
     ...(0,_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.useBlockProps)({
       ["data-post-id"]: postId
     })
-  }, h2tags && h2tags.length ? (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("ul", {
+  }, h2tags?.length ? (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("ul", {
     className: "navigation-links"
   }, h2tags.map((tag, index) => (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("li", {
     className: "navigation-link"

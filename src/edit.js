@@ -59,7 +59,7 @@ function Error() {
 	return (
 		<p>
 			{__(
-				"Please make sure the content was on the post and h2 tags",
+				"Please make sure the current post type is post and post content must have h2 tags",
 				"dynamic-blog-sidebar-block"
 			)}
 		</p>
@@ -86,8 +86,8 @@ export default function Edit({ attributes, setAttributes }) {
 		}));
 
 	if (getCurrentPostType !== "post") {
-		// Bail if current post type is not Posy
-		return;
+		// Bailout if current post type is not Post
+		return <Error />;
 	}
 
 	useEffect(() => {
@@ -107,7 +107,7 @@ export default function Edit({ attributes, setAttributes }) {
 				["data-post-id"]: postId,
 			})}
 		>
-			{h2tags && h2tags.length ? (
+			{h2tags?.length ? (
 				<ul className="navigation-links">
 					{h2tags.map((tag, index) => (
 						<li className="navigation-link">

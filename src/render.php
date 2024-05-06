@@ -13,5 +13,5 @@
 	</ul>
 </div>
 <?php } else { ?>
-		<p><?php echo esc_html_e('Please make sure the content was on the post and h2 tags'); ?></p>
+		<p><?php echo esc_html_e('Please make sure the current post type is post and post content must have h2 tags'); ?></p>
 <?php } ?>
