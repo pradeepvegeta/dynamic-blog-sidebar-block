@@ -1,5 +1,6 @@
 === Dynamic Blog Sidebar Block ===
-Contributors:      https://github.com/pradeepvegeta
+Contributors:      Pradeep Kumar
+GitHub URI:        https://github.com/pradeepvegeta
 Tags:              block
 Tested up to:      6.5.2
 Stable tag:        0.1.0
