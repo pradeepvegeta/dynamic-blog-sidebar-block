@@ -8,7 +8,7 @@ License URI:       https://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Used the WordPress package @wordpress/make-block to construct the Dynamic Blog Sidebar Block, a straightforward block. In order to facilitate easy navigation throughout the post, the dynamic blog sidebar block will scan through each h2 tag in the post content and create sidebar links in the left column.
+Used the WordPress package @wordpress/create-block to construct the Dynamic Blog Sidebar Block, a straightforward block. In order to facilitate easy navigation throughout the post, the dynamic blog sidebar block will scan through each h2 tag in the post content and create sidebar links in the left column.
 
 == Installation ==
 
