@@ -21,6 +21,9 @@ e.g.
 
 == Video & Screenshots ==
 
+[https://ibb.co/3k0y85p]
+[https://ibb.co/SnMGfjr]
+
 [https://go.screenpal.com/watch/cZh1hbVMJda]
 
 == Changelog ==
