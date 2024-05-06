@@ -1,7 +1,7 @@
 === Dynamic Blog Sidebar Block ===
 Contributors:      https://github.com/pradeepvegeta
 Tags:              block
-Tested up to:      6.1
+Tested up to:      6.5.2
 Stable tag:        0.1.0
 License:           GPL-2.0-or-later
 License URI:       https://www.gnu.org/licenses/gpl-2.0.html
@@ -21,7 +21,7 @@ e.g.
 
 == Video Demo ==
 
-/Users/pradeepkumar/Desktop/Screen Recording 2024-05-06 at 10.19.03 AM.mov
+[https://go.screenpal.com/watch/cZh1hbVMJda]
 
 == Changelog ==
 
