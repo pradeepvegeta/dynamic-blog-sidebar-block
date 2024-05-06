@@ -1,0 +1,13 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-dynamic-blog-sidebar-block {
+	border: 0;
+
+	a {
+		pointer-events: none;
+	}
+}
